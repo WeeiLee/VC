@@ -1,5 +1,8 @@
 Ejercicios de Práctica 1
-Autores: Wei Li, Anthony Diego Avila Arias 
+
+Autores: 
+Wei Li 
+Anthony Diego Avila Arias 
 
 TAREA 1:
 
