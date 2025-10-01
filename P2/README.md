@@ -3,7 +3,7 @@ Autores: Wei Li, Anthony Diego Avila Arias
 
 Tarea 1:  Realiza la cuenta de píxeles blancos por filas (en lugar de por columnas). Determina el valor máximo de píxeles blancos para filas, maxfil, mostrando el número de filas y sus respectivas posiciones, con un número de píxeles blancos mayor o igual que 0.90*maxfil.
 
-Se utiliza la función "reduce" sobre la imagen obtenida con Canny, especificando la dimensión 1 para sumar los píxeles blancos a lo largo de cada fila. Luego se aplica "transpose" para convertir el resultado en un array con la suma de cada fila. A continuación, se identifica la fila que contiene el máximo número de píxeles blancos.
+Se utiliza la función "reduce" sobre la imagen obtenida con Canny, especificando la dimensión 1 para sumar los píxeles blancos a lo largo de cada fila. Luego se aplica "transpose" para convertir el resultado en un array con la dimensión que necesitamos. A continuación, se identifica la fila que contiene el máximo número de píxeles blancos.
 
 Después, se itera sobre todas las filas para encontrar aquellas que alcanzan al menos el 90% de ese máximo, registrando sus posiciones. Finalmente, se muestran la imagen de Canny y un histograma normalizado que representa la intensidad de píxeles blancos por fila.
 
@@ -57,8 +57,9 @@ El código muestra inicialmente una pantalla negra. Cuando se coloca un objeto a
 
 Detección de color:
 Se definen rangos de intensidad para los canales Rojo, Verde y Azul mediante un umbral "treshold" y un valor de compensación "substract".
-Para el color rojo, se seleccionan píxeles donde el canal rojo es bajo, el canal azul es alto y el canal verde es bajo.
-Para el color azul, se seleccionan píxeles donde el canal azul es bajo, el canal rojo es alto y el canal verde es bajo.
+Para el color azul, se seleccionan píxeles donde el canal rojo es bajo, el canal azul es alto y el canal verde es bajo.
+Para el color rojo, se seleccionan píxeles donde el canal azul es bajo, el canal rojo es alto y el canal verde es bajo.
+De esta forma el color blanco no cuenta como rojo ni azul.
 
 Cuando los píxeles cumplen las condiciones correspondientes, se considera que se ha detectado ese color en la imagen. Dependiendo de si el color detectado es rojo o azul, se pinta la zona en negro o blanco, respectivamente.
 
