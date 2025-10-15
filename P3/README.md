@@ -4,10 +4,9 @@
 
 - [Tarea 1](#1-tarea-1--reconocimiento-de-la-moneda)
 
-- [Tarea 2](#2-tarea-2--reconocDetección-de-microplastico)
+- [Tarea 2](#2-tarea-2--deteccion-de-microplasticos)
 
-
-### 1. Tarea 1 : Reconocimiento de la moneda
+## 1. Tarea 1 : Reconocimiento de la moneda
 
 
 TAREA: Los ejemplos ilustrativos anteriores permiten saber el número de monedas presentes en la imagen. ¿Cómo saber la cantidad de dinero presente en ella? Sugerimos identificar de forma interactiva (por ejemplo haciendo clic en la imagen) una moneda de un valor determinado en la imagen (por ejemplo de 1€). Tras obtener esa información y las dimensiones en milímetros de las distintas monedas, realiza una propuesta para estimar la cantidad de dinero en la imagen. Muestra la cuenta de monedas y dinero sobre la imagen. No hay restricciones sobre utilizar medidas geométricas o de color. 
@@ -15,7 +14,7 @@ TAREA: Los ejemplos ilustrativos anteriores permiten saber el número de monedas
 Una vez resuelto el reto con la imagen ideal proporcionada, captura una o varias imágenes con monedas. Aplica el mismo esquema, tras identificar la moneda del valor determinado, calcula el dinero presente en la imagen. ¿Funciona correctamente? ¿Se observan problemas?
 
 
-## 1. Modo de funcionamiento
+### 1. Modo de funcionamiento
 - Modo cámara: Se abre la cámara (`cv2.VideoCapture`) y se captura la imagen en vivo para detectar. 
 
 - Modo imagen estática: seleccionar imagen de archivo para detectar.
@@ -26,7 +25,7 @@ Una vez resuelto el reto con la imagen ideal proporcionada, captura una o varias
 - Esta información sirve para **escalar correctamente** las demás monedas detectadas en la imagen.
 
 
-## 3. Preprocesamiento y detección de contornos
+### 3. Preprocesamiento y detección de contornos
 Para cada imagen (referencia o completa):
 
 1. Conversión a **escala de grises**  
@@ -38,7 +37,7 @@ Para cada imagen (referencia o completa):
 
 
 
-## 4. Cálculo de escala y ajuste por perspectiva
+### 4. Cálculo de escala y ajuste por perspectiva
 - Cada contorno detectado se ajusta usando la fórmula de **escala por perspectiva**:
 
 $$
@@ -52,14 +51,14 @@ Esto permite **ajustar el diámetro medido según la perspectiva** de la cámara
 
 
 
-## 5. Estimación del valor de la moneda
+### 5. Estimación del valor de la moneda
 - Se compara el **diámetro escalado** con un diccionario de tamaños conocidos (`COINS_SIZES`)  
 - Se selecciona la **moneda más cercana** al tamaño detectado  
 - Se filtran monedas fuera de los rangos válidos (menores a 13.25 mm o mayores a 27.75 mm)  
 - Se devuelve: **valor estimado** y **diámetro escalado**
 
 
-## 6. Dibujo de resultados en la imagen
+### 6. Dibujo de resultados en la imagen
 - Se dibujan:
   - Contorno de la moneda (`cv2.ellipse`)  
   - Círculo con diámetro escalado (`cv2.circle`)  
@@ -74,7 +73,21 @@ En la siguiente se muestra la detección aplicada en 3 imagenes que son: Monedas
 <img src="modenas_con_fondo_ruido.png" width="500" />
 
 
-### 2. Tarea 2 : Detección de microplastico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 2. Tarea 2 : Detección de microplasticos
 
 
 TAREA: La tarea consiste en extraer características (geométricas y/o visuales) de las tres imágenes completas de partida, y *aprender* patrones que permitan identificar las partículas en nuevas imágenes. Para ello se proporciona como imagen de test *MPs_test.jpg* y sus correpondientes anotaciones *MPs_test_bbs.csv* con la que deben obtener las métricas para su propuesta de clasificación de microplásticos, además de la matriz de confusión. La matriz de confusión permitirá mostrar para cada clase el número de muestras que se clasifican correctamente de dicha clase, y el número de muestras que se clasifican incorrectamente como perteneciente a una de las otras dos clases.
