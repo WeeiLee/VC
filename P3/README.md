@@ -73,10 +73,13 @@ En la siguiente se muestra la detección aplicada en 3 imagenes que son: Monedas
 <img src="monedas_reales.png" width="500", hight="500" />
 
 Usando Laplaciano = True
-<img src="modenas_con_fondo_ruido.png" width="500" />
-
+<p float="left">
+  <img src="modenas_con_fondo_ruido.png" width="500" />
+</p>
 Usando Laplaciano = False
-<img src="modenas_con_fondo_ruido2.png" width="500" />
+<p float="left">
+  <img src="modenas_con_fondo_ruido2.png" width="500" />
+</p>
 
 ## 2. Tarea 2 : Detección de microplasticos
 
