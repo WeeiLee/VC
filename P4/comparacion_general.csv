@@ -1,0 +1,5 @@
+OCR,Imágenes,Coincidencias,Precisión (%)
+easyocr,404,109,26.98
+paddleocr,413,63,15.25
+smolvlm,413,26,6.3
+tesseract,222,6,2.7
