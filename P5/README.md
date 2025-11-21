@@ -96,9 +96,14 @@ Resultado de filtro:
 ### Creación de filtro de landmarks faciales
 1. Se detecta la cara y los ojos usando **FaceDetectors**.
 2. Se identifican 68 **landmarks faciales**.
-3. Se puede seleccionar accesorios y colocarlos sobre los landmarks haciendo clic con el ratón.
-4. Soporta efectos dinámicos, como lágrimas animadas que caen desde los ojos.
-5. Los accesorios se pueden activar/desactivar y cambiar con teclas (d, a, space).
+3. Se puede colocar accesorios sobre los landmarks haciendo clic con el ratón y quitarlos con el clic derecho.
+4. Soporta efectos dinámicos, como lágrimas animadas que caen desde los ojos (q, e, s).
+5. Los accesorios se pueden cambiar con teclas (d, a).
+6. Se muestran loas landmarks con la tecla (space)
 
 Resultado de filtro:
+
+
+https://github.com/user-attachments/assets/7166a028-f8c5-4494-825a-6654cb2cd162
+
 
