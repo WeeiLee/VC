@@ -57,12 +57,14 @@ En la gráfica se muestra un **97 %** de las matrículas reales fueron correctam
 3. Si se detecta una matrícula:
 
     -   Se aplica preprocesamiento de imagen (suavizado, binarización, aumento de contraste, cierre de huecos, etc.).
-
+    -   También se aplica un modelo de super-resolución de super-image.
     -   Se pasa el recorte procesado al modelo EasyOCR para reconocer el texto.
+    -   Se almacenan los mejores resultados de OCR para mejorar la presición de la detección.
 
 4. El número detectado se dibuja sobre el video junto al bounding box del vehículo o matrícula.
+5. Las matrículas y las caras de las personas se desenfocan.
 
-5. Genera un [video de salida](https://alumnosulpgc-my.sharepoint.com/:v:/g/personal/wei_li101_alu_ulpgc_es/EXYpSjEpYYxGpcHeWBBb4HgBTwUhhA9TPZ4Rwxy7Fk0HyA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tXw6so) y un [csv](./detecciones.csv) de resultado de la detección obtenida de cada frame.
+6. Genera un video como output [(link del video)](https://alumnosulpgc-my.sharepoint.com/:v:/g/personal/wei_li101_alu_ulpgc_es/EXYpSjEpYYxGpcHeWBBb4HgBTwUhhA9TPZ4Rwxy7Fk0HyA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tXw6so) y un [csv](./detecciones.csv) de resultado de la detección obtenida de cada frame.
 
 Este enfoque reduce falsos positivos, mejora la precisión y permite un seguimiento con ID de cada objeto detectado a lo largo del video.
 
