@@ -1,0 +1,652 @@
+***
+Fold 1
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.736s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.81      0.87      0.84        69
+   Caucasian       0.79      0.90      0.84        29
+    Negroids       0.90      0.78      0.83        68
+
+    accuracy                           0.84       166
+   macro avg       0.83      0.85      0.84       166
+weighted avg       0.84      0.84      0.84       166
+
+[[60  3  6]
+ [ 3 26  0]
+ [11  4 53]]
+***
+Fold 1
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.325s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0001)
+Predicting
+done in 0.005s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.98      0.67      0.79        69
+   Caucasian       0.76      0.66      0.70        29
+    Negroids       0.68      0.94      0.79        67
+
+    accuracy                           0.78       165
+   macro avg       0.81      0.75      0.76       165
+weighted avg       0.82      0.78      0.78       165
+
+[[46  3 20]
+ [ 0 19 10]
+ [ 1  3 63]]
+***
+Fold 1
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.397s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.005s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.86      0.86      0.86        69
+   Caucasian       0.65      0.69      0.67        29
+    Negroids       0.88      0.85      0.86        67
+
+    accuracy                           0.82       165
+   macro avg       0.79      0.80      0.80       165
+weighted avg       0.83      0.82      0.83       165
+
+[[59  5  5]
+ [ 6 20  3]
+ [ 4  6 57]]
+***
+Fold 1
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.558s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.001)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.79      0.87      0.83        68
+   Caucasian       0.74      0.47      0.57        30
+    Negroids       0.82      0.87      0.84        67
+
+    accuracy                           0.79       165
+   macro avg       0.78      0.73      0.75       165
+weighted avg       0.79      0.79      0.79       165
+
+[[59  2  7]
+ [10 14  6]
+ [ 6  3 58]]
+***
+Fold 1
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.255s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.92      0.65      0.76        68
+   Caucasian       0.73      0.53      0.62        30
+    Negroids       0.69      0.99      0.81        67
+
+    accuracy                           0.76       165
+   macro avg       0.78      0.72      0.73       165
+weighted avg       0.79      0.76      0.76       165
+
+[[44  6 18]
+ [ 3 16 11]
+ [ 1  0 66]]
+***
+Fold 2
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.571s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.81      0.87      0.84        69
+   Caucasian       0.79      0.90      0.84        29
+    Negroids       0.90      0.78      0.83        68
+
+    accuracy                           0.84       166
+   macro avg       0.83      0.85      0.84       166
+weighted avg       0.84      0.84      0.84       166
+
+[[60  3  6]
+ [ 3 26  0]
+ [11  4 53]]
+***
+Fold 2
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.258s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0001)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.98      0.67      0.79        69
+   Caucasian       0.76      0.66      0.70        29
+    Negroids       0.68      0.94      0.79        67
+
+    accuracy                           0.78       165
+   macro avg       0.81      0.75      0.76       165
+weighted avg       0.82      0.78      0.78       165
+
+[[46  3 20]
+ [ 0 19 10]
+ [ 1  3 63]]
+***
+Fold 2
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.371s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.86      0.86      0.86        69
+   Caucasian       0.65      0.69      0.67        29
+    Negroids       0.88      0.85      0.86        67
+
+    accuracy                           0.82       165
+   macro avg       0.79      0.80      0.80       165
+weighted avg       0.83      0.82      0.83       165
+
+[[59  5  5]
+ [ 6 20  3]
+ [ 4  6 57]]
+***
+Fold 2
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.477s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.001)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.79      0.87      0.83        68
+   Caucasian       0.74      0.47      0.57        30
+    Negroids       0.82      0.87      0.84        67
+
+    accuracy                           0.79       165
+   macro avg       0.78      0.73      0.75       165
+weighted avg       0.79      0.79      0.79       165
+
+[[59  2  7]
+ [10 14  6]
+ [ 6  3 58]]
+***
+Fold 2
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.203s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.92      0.65      0.76        68
+   Caucasian       0.73      0.53      0.62        30
+    Negroids       0.69      0.99      0.81        67
+
+    accuracy                           0.76       165
+   macro avg       0.78      0.72      0.73       165
+weighted avg       0.79      0.76      0.76       165
+
+[[44  6 18]
+ [ 3 16 11]
+ [ 1  0 66]]
+***
+Fold 3
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.597s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.81      0.87      0.84        69
+   Caucasian       0.79      0.90      0.84        29
+    Negroids       0.90      0.78      0.83        68
+
+    accuracy                           0.84       166
+   macro avg       0.83      0.85      0.84       166
+weighted avg       0.84      0.84      0.84       166
+
+[[60  3  6]
+ [ 3 26  0]
+ [11  4 53]]
+***
+Fold 3
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.279s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0001)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.98      0.67      0.79        69
+   Caucasian       0.76      0.66      0.70        29
+    Negroids       0.68      0.94      0.79        67
+
+    accuracy                           0.78       165
+   macro avg       0.81      0.75      0.76       165
+weighted avg       0.82      0.78      0.78       165
+
+[[46  3 20]
+ [ 0 19 10]
+ [ 1  3 63]]
+***
+Fold 3
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.364s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.86      0.86      0.86        69
+   Caucasian       0.65      0.69      0.67        29
+    Negroids       0.88      0.85      0.86        67
+
+    accuracy                           0.82       165
+   macro avg       0.79      0.80      0.80       165
+weighted avg       0.83      0.82      0.83       165
+
+[[59  5  5]
+ [ 6 20  3]
+ [ 4  6 57]]
+***
+Fold 3
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.467s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.001)
+Predicting
+done in 0.003s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.79      0.87      0.83        68
+   Caucasian       0.74      0.47      0.57        30
+    Negroids       0.82      0.87      0.84        67
+
+    accuracy                           0.79       165
+   macro avg       0.78      0.73      0.75       165
+weighted avg       0.79      0.79      0.79       165
+
+[[59  2  7]
+ [10 14  6]
+ [ 6  3 58]]
+***
+Fold 3
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.190s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.92      0.65      0.76        68
+   Caucasian       0.73      0.53      0.62        30
+    Negroids       0.69      0.99      0.81        67
+
+    accuracy                           0.76       165
+   macro avg       0.78      0.72      0.73       165
+weighted avg       0.79      0.76      0.76       165
+
+[[44  6 18]
+ [ 3 16 11]
+ [ 1  0 66]]
+***
+Fold 4
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.570s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.81      0.87      0.84        69
+   Caucasian       0.79      0.90      0.84        29
+    Negroids       0.90      0.78      0.83        68
+
+    accuracy                           0.84       166
+   macro avg       0.83      0.85      0.84       166
+weighted avg       0.84      0.84      0.84       166
+
+[[60  3  6]
+ [ 3 26  0]
+ [11  4 53]]
+***
+Fold 4
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.267s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0001)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.98      0.67      0.79        69
+   Caucasian       0.76      0.66      0.70        29
+    Negroids       0.68      0.94      0.79        67
+
+    accuracy                           0.78       165
+   macro avg       0.81      0.75      0.76       165
+weighted avg       0.82      0.78      0.78       165
+
+[[46  3 20]
+ [ 0 19 10]
+ [ 1  3 63]]
+***
+Fold 4
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.351s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.86      0.86      0.86        69
+   Caucasian       0.65      0.69      0.67        29
+    Negroids       0.88      0.85      0.86        67
+
+    accuracy                           0.82       165
+   macro avg       0.79      0.80      0.80       165
+weighted avg       0.83      0.82      0.83       165
+
+[[59  5  5]
+ [ 6 20  3]
+ [ 4  6 57]]
+***
+Fold 4
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.481s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.001)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.79      0.87      0.83        68
+   Caucasian       0.74      0.47      0.57        30
+    Negroids       0.82      0.87      0.84        67
+
+    accuracy                           0.79       165
+   macro avg       0.78      0.73      0.75       165
+weighted avg       0.79      0.79      0.79       165
+
+[[59  2  7]
+ [10 14  6]
+ [ 6  3 58]]
+***
+Fold 4
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.201s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.005s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.92      0.65      0.76        68
+   Caucasian       0.73      0.53      0.62        30
+    Negroids       0.69      0.99      0.81        67
+
+    accuracy                           0.76       165
+   macro avg       0.78      0.72      0.73       165
+weighted avg       0.79      0.76      0.76       165
+
+[[44  6 18]
+ [ 3 16 11]
+ [ 1  0 66]]
+***
+Fold 5
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.564s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.81      0.87      0.84        69
+   Caucasian       0.79      0.90      0.84        29
+    Negroids       0.90      0.78      0.83        68
+
+    accuracy                           0.84       166
+   macro avg       0.83      0.85      0.84       166
+weighted avg       0.84      0.84      0.84       166
+
+[[60  3  6]
+ [ 3 26  0]
+ [11  4 53]]
+***
+Fold 5
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.254s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0001)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.98      0.67      0.79        69
+   Caucasian       0.76      0.66      0.70        29
+    Negroids       0.68      0.94      0.79        67
+
+    accuracy                           0.78       165
+   macro avg       0.81      0.75      0.76       165
+weighted avg       0.82      0.78      0.78       165
+
+[[46  3 20]
+ [ 0 19 10]
+ [ 1  3 63]]
+***
+Fold 5
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.352s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.86      0.86      0.86        69
+   Caucasian       0.65      0.69      0.67        29
+    Negroids       0.88      0.85      0.86        67
+
+    accuracy                           0.82       165
+   macro avg       0.79      0.80      0.80       165
+weighted avg       0.83      0.82      0.83       165
+
+[[59  5  5]
+ [ 6 20  3]
+ [ 4  6 57]]
+***
+Fold 5
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.479s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.001)
+Predicting
+done in 0.003s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.79      0.87      0.83        68
+   Caucasian       0.74      0.47      0.57        30
+    Negroids       0.82      0.87      0.84        67
+
+    accuracy                           0.79       165
+   macro avg       0.78      0.73      0.75       165
+weighted avg       0.79      0.79      0.79       165
+
+[[59  2  7]
+ [10 14  6]
+ [ 6  3 58]]
+***
+Fold 5
++++++++++++++++++++++++++++++++++++++++++++
+
+SVM Normalization...
+SVM training...
+done in 3.190s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0005)
+Predicting
+done in 0.004s
+
+Facenet+SVM Metrics
+              precision    recall  f1-score   support
+
+       Asian       0.92      0.65      0.76        68
+   Caucasian       0.73      0.53      0.62        30
+    Negroids       0.69      0.99      0.81        67
+
+    accuracy                           0.76       165
+   macro avg       0.78      0.72      0.73       165
+weighted avg       0.79      0.76      0.76       165
+
+[[44  6 18]
+ [ 3 16 11]
+ [ 1  0 66]]
+Facenet+KNN Mean Precision:  nan, Mean Recall:  nan
+Facenet+SVM Mean Precision:  0.814, Mean Recall:  0.799
